@@ -1,0 +1,61 @@
+schema_version: '1.0'
+generated_at: '2026-08-31T16:46:18.867436Z'
+products:
+- name: Aetos CloudStack
+  repository: aetos-cloud/Aetos-CloudStack
+  category: cloud
+  role: iaas-core
+  source_mode: fork
+  product_mode: commercial_distribution
+  version: 0.0.0-dev.e5095cd
+  revision: e5095cd2be3054eecd34845c45788a942566226e
+  compatibility:
+    kubernetes: 1.35.x
+    ceph: 19.x
+- name: Aetos Kubernetes
+  repository: aetos-cloud/Aetos-Kubernetes
+  category: container
+  role: kubernetes-platform
+  source_mode: integration
+  product_mode: commercial_distribution
+  version: 0.1.0-dev
+  revision: c379dae7dc05fc07bb26d8b57263bf1933a488b1
+  compatibility: {}
+- name: Aetos Console
+  repository: aetos-cloud/Aetos-Console
+  category: platform
+  role: unified-management-console
+  source_mode: native
+  product_mode: commercial_distribution
+  version: 0.0.0-dev.10e904c
+  revision: 10e904c56e9253332520a6f179ec12f5b165032f
+  compatibility: {}
+- name: Aetos Installer
+  repository: aetos-cloud/Aetos-Installer
+  category: platform
+  role: boot-media-installer
+  source_mode: integration
+  product_mode: commercial_distribution
+  version: 0.1.0-dev
+  revision: bc9bb736e42472ca296c58a60d8c439b7014269c
+  compatibility: {}
+- name: Aetos Orchestrator
+  repository: aetos-cloud/Aetos-Orchestrator
+  category: platform
+  role: deployment-automation
+  source_mode: native
+  product_mode: commercial_distribution
+  version: 0.1.0-dev
+  revision: 165a66a476c8b24a96818e525fd204315f1a2f20
+  compatibility: {}
+- name: Aetos Ceph
+  repository: aetos-cloud/Aetos-Ceph
+  category: storage
+  role: storage-integration
+  source_mode: integration
+  product_mode: commercial_distribution
+  version: 0.1.0-dev
+  revision: 22a3c272af3ea497c90d219d9e02a2a956664e87
+  compatibility:
+    cloudstack: 4.23.x
+    kubernetes: 1.35.x
