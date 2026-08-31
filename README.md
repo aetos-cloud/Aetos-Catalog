@@ -10,7 +10,8 @@ Aetos 제품군의 공개 버전 Catalog입니다.
 KLIC-Aetos
   -> Catalog 생성
   -> Aetos-Catalog에 공개 산출물 전달
-  -> GitHub Pages 게시
+  -> main 브랜치 Push
+  -> GitHub Pages 자동 게시
 ```
 
 ## 공개 정보
@@ -22,3 +23,15 @@ KLIC-Aetos
 - 공개 가능한 Commit Revision
 
 인증정보, 고객 정보, 내부 Patch 내용은 이 Repository에 게시하지 않습니다.
+
+## GitHub Pages 설정
+
+Repository Settings의 Pages에서 다음을 선택합니다.
+
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: /(root)
+```
+
+`index.html`이 Repository 최상위에 있으므로 별도 빌드 과정이 필요하지 않습니다.
