@@ -1,5 +1,5 @@
 schema_version: '1.0'
-generated_at: '2026-08-31T16:46:18.867436Z'
+generated_at: '2026-08-31T23:20:47.994343Z'
 products:
 - name: Aetos CloudStack
   repository: aetos-cloud/Aetos-CloudStack
@@ -7,8 +7,8 @@ products:
   role: iaas-core
   source_mode: fork
   product_mode: commercial_distribution
-  version: 0.0.0-dev.e5095cd
-  revision: e5095cd2be3054eecd34845c45788a942566226e
+  version: 0.0.0-dev.1986eca
+  revision: 1986eca34352e43e19345b23f97381f01878827d
   compatibility:
     kubernetes: 1.35.x
     ceph: 19.x
@@ -18,8 +18,8 @@ products:
   role: kubernetes-platform
   source_mode: integration
   product_mode: commercial_distribution
-  version: 0.1.0-dev
-  revision: c379dae7dc05fc07bb26d8b57263bf1933a488b1
+  version: 0.0.0-dev.841273f
+  revision: 841273ff5f53bef5307684c0fd82ad2359893575
   compatibility: {}
 - name: Aetos Console
   repository: aetos-cloud/Aetos-Console
@@ -27,8 +27,8 @@ products:
   role: unified-management-console
   source_mode: native
   product_mode: commercial_distribution
-  version: 0.0.0-dev.10e904c
-  revision: 10e904c56e9253332520a6f179ec12f5b165032f
+  version: 0.0.0-dev.43ab75b
+  revision: 43ab75bd080eaf8448c86c3e851439a11ee7ba5e
   compatibility: {}
 - name: Aetos Installer
   repository: aetos-cloud/Aetos-Installer
@@ -36,8 +36,8 @@ products:
   role: boot-media-installer
   source_mode: integration
   product_mode: commercial_distribution
-  version: 0.1.0-dev
-  revision: bc9bb736e42472ca296c58a60d8c439b7014269c
+  version: 0.0.0-dev.c1fe66a
+  revision: c1fe66a778a35c70261fb1370cf9a42068fe0569
   compatibility: {}
 - name: Aetos Orchestrator
   repository: aetos-cloud/Aetos-Orchestrator
@@ -45,8 +45,8 @@ products:
   role: deployment-automation
   source_mode: native
   product_mode: commercial_distribution
-  version: 0.1.0-dev
-  revision: 165a66a476c8b24a96818e525fd204315f1a2f20
+  version: 0.0.0-dev.b233a30
+  revision: b233a30e3f5f9c826982c4e9758e3c5e3283b9ae
   compatibility: {}
 - name: Aetos Ceph
   repository: aetos-cloud/Aetos-Ceph
@@ -54,8 +54,8 @@ products:
   role: storage-integration
   source_mode: integration
   product_mode: commercial_distribution
-  version: 0.1.0-dev
-  revision: 22a3c272af3ea497c90d219d9e02a2a956664e87
+  version: 0.0.0-dev.2cf8ec2
+  revision: 2cf8ec235845d86d26857659f2c0d4515d301c2a
   compatibility:
     cloudstack: 4.23.x
     kubernetes: 1.35.x
